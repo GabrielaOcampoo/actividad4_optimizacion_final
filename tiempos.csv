@@ -1,0 +1,15 @@
+
+script,run,time
+codigo_original,1,22.740478
+codigo_original,2,22.506722
+codigo_original,3,22.322815
+
+
+codigo_optimizado_sqrt,1,0.077587
+codigo_optimizado_sqrt,2,0.078274
+codigo_optimizado_sqrt,3,0.075635
+
+
+codigo_optimizado_numpy_sieve,1,0.001464
+codigo_optimizado_numpy_sieve,2,0.001702
+codigo_optimizado_numpy_sieve,3,0.006126
