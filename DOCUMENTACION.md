@@ -1,4 +1,6 @@
-## **ACTIVIDAD 4 – OPTIMIZACIÓN DE CÓDIGO**
+## **ACTIVIDAD AUTÓNOMA 4 – CULTURA DIGITAL Y SOCIEDAD**
+## **Unidad 2: Herramientas y Metodologías en Ciencia de Datos**
+## **Tema 2: Buenas Prácticas en Programación para Ciencia de Datos**
 
 **Autor: Gaby Ocampo**
 
@@ -75,6 +77,7 @@ Este resultado demuestra que el uso de criterios matemáticos como la raíz cuad
 
 **Análisis del código optimizado con sqrt**
 
+
 Esta optimización cambia la complejidad de O(n × n) a O(n × √n), lo cual significa una reducción enorme en el número de operaciones.
 El tiempo promedio cayó de 22.5 segundos a aproximadamente 0.077 segundos.
 
@@ -86,11 +89,14 @@ El mismo resultado correcto (9592 números primos).
 
 El algoritmo sigue siendo matemáticamente simple, pero más eficiente.
 
-### 2.3. Optimización 2: Algoritmo con NumPy (Sieve de Eratóstenes)
+### 2.3. Optimización 
+
+**Algoritmo con NumPy (Sieve de Eratóstenes)**
 
 Para esta optimización se implementó la Criba de Eratóstenes usando **NumPy**, aprovechando operaciones vectorizadas que eliminan múltiplos de manera masiva. Se ejecutó el script optimizado tres veces para obtener una muestra representativa de tiempos.
 
 **Resultados (tres ejecuciones):**
+
 
 | Ejecución | Tiempo (s) |
 |-----------|------------|
@@ -99,6 +105,7 @@ Para esta optimización se implementó la Criba de Eratóstenes usando **NumPy**
 | 3         | 0.006126   |
 
 **Estadística resumen:**  
+
 - Tiempo promedio: **0.003097 s**  
 - Desviación estándar: **0.002144 s**
 
@@ -121,6 +128,7 @@ El código codigo_optimizado_numpy_sieve.py implementa la Criba de Eratóstenes,
 
 **Análisis del código optimizado con NumPy + Criba**
 
+
 Este método presenta el mejor desempeño debido a:
 
 🔹 1. Futuro matemático eficiente (Criba de Eratóstenes)
@@ -140,6 +148,7 @@ La complejidad se aproxima a O(n log log n), una de las mejores para hallar núm
 
 ## 3. Tabla comparativa general
 
+
 | Versión del código   | Ejecución 1 (s) | Ejecución 2 (s) | Ejecución 3 (s) | Promedio (s) |
 | -------------------- | --------------- | --------------- | --------------- | ------------ |
 | **Original**         | 22.740478       | 22.506722       | 22.322815       | **22.52**    |
@@ -156,7 +165,9 @@ python -m cProfile -o profiling_original.txt codigo_original.py
 python -m cProfile -o profiling_optimizado.txt codigo_optimizado_numpy_sieve.py
 
 **Resultados del análisis**
-a. Código original
+
+
+**a. Código original**
 
 El archivo profiling_original.txt mostró que:
 
@@ -281,6 +292,6 @@ La eficiencia no es solo rapidez, sino también estabilidad, claridad y escalabi
 
 Finalmente, este trabajo refleja la importancia de iterar, analizar y mejorar continuamente el código. Optimizar no significa solo “hacerlo más rápido”, sino comprender por qué es más rápido y cómo garantizar que mantenga su desempeño en escenarios reales y de mayor escala.
 
-**Link a GitHub:** https://github.com/GabrielaaOcampoo/actividad4_optimizacion
+**Link a GitHub:** https://github.com/GabrielaOcampoo/actividad4_optimizacion_final.git
 
 ## Si puedes soñarlo, puedes programarlo
