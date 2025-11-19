@@ -295,3 +295,41 @@ Finalmente, este trabajo refleja la importancia de iterar, analizar y mejorar co
 **Link a GitHub:** https://github.com/GabrielaOcampoo/actividad4_optimizacion_final.git
 
 ## Si puedes soñarlo, puedes programarlo
+
+**REFERENCIAS**
+
+1. Python Software Foundation. (2024). Perfilado y medición de rendimiento con cProfile.
+
+https://docs.python.org/es/3/library/profile.html
+
+2. Python Software Foundation. (2024). Módulo time: Medición de tiempo en Python.
+
+https://docs.python.org/es/3/library/time.html
+
+3. Proyecto NumPy. (2024). Documentación oficial de NumPy.
+
+https://numpy.org/doc/stable/es/
+
+4. Pandas Development Team. (2024). Pandas: Documentación oficial.
+
+https://pandas.pydata.org/docs/
+
+5. Matplotlib Developers. (2024). Matplotlib: Visualización en Python.
+
+https://matplotlib.org/stable/
+
+6. Software Freedom Conservancy. (2024). Git: Documentación oficial.
+
+https://git-scm.com/doc
+
+7. GitHub, Inc. (2024). Trabajar con repositorios en GitHub.
+
+https://docs.github.com/es/repositories
+
+8. Wikipedia. (2024). Criba de Eratóstenes.
+
+https://es.wikipedia.org/wiki/Criba_de_Eratóstenes
+
+9. Python Enhancement Proposals. (2024). PEP 8 – Guía de estilo para código en Python.
+
+https://peps.python.org/pep-0008/
